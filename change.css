@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.countries {
+  display: flex;
+  overflow-x: scroll;
+  opacity: 0;
+  transition: opacity 3s;
+}
+
+.country {
+  background-color: #d3d6db;
+  padding: 15px;
+}
+
+.country-flag {
+  width: 200px;
+}
+.country-flag img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.country-infos {
+  padding-top: 40px;
+}
+
+.country-infos div {
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.fas {
+  margin-right: 8px;
+  color: #297ccf;
+}
+
+p {
+  color: #5c6670;
+}
+
+.location {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.location-btn {
+  border: none;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #b54812;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.location-btn:hover {
+  background-color: #915030;
+}
+
+.hidden {
+  display: none;
+}
+
+.center {
+  width: 20%;
+  margin: 0 auto;
+}
